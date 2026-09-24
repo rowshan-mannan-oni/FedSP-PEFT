@@ -1,0 +1,111 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local env/config
+.env
+.env.*
+
+# Build / packaging
+dist/
+build/
+
+# Training outputs and large artifacts
+artifacts/
+artifacts*/
+artifacts_test/
+saved_models/
+saved_models_*/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.zip
+dashboard/public/data/
+results/
+
+# Predictions and logs
+predictions*.csv
+*.log
+
+# Local data copies (keep raw source datasets outside repo)
+data_*/
+*dataset*/
+pre_training_data/
+papers to read/
+# Jupyter
+*.ipynb
+
+#figures
+analysis_figures/
+
+# Machine-local run plans (RUN_PLAN.md is the committed source of truth)
+RUN_PLAN_Linux.md
+RUN_PLAN_LINUX_UPDATED.md
+linux.command.txt
+
+# Standalone one-off pages (not part of the dashboard build)
+project-readMe.html
+
+# AI-assistant working output (generated drafts, slides, write-ups — not source)
+Claude outputs/
+claude_outputs/
+.claude/scratch/
+
+# Thesis writing artifacts / document exports (belong in the thesis repo, not here)
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.odt
+*.odp
+*.pdf
+*.tex.bak
+# Office/LibreOffice lock + temp files
+~$*
+.~lock.*#
+
+# Personal notes, scratch and machine-local drafts
+notes/
+scratch/
+tmp/
+*.tmp
+*.bak
+*.orig
+*~
+*.swp
+TODO.local.md
+*.local.md
+
+# OS / shell leftovers
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+nohup.out
+
+# Internal planning / agent docs (README.md stays tracked)
+CLAUDE.md
+KAGGLE.md
+RQs.md
+RUN_PLAN.md
