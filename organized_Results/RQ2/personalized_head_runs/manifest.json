@@ -1,0 +1,60 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "prox_mu": 0.01,
+  "skip_fedavg": true,
+  "skip_baselines": true,
+  "passthrough_args": [
+    "--data-dir",
+    "/mnt/code/Oni/Shohel Ahmed CSE/federated-story-point-estimation/data_to_train_on_clean",
+    "--model-name",
+    "microsoft/codebert-base",
+    "--max-length",
+    "256",
+    "--rounds",
+    "60",
+    "--local-epochs",
+    "1",
+    "--batch-size",
+    "64",
+    "--lr",
+    "3e-5",
+    "--warmstart-lr",
+    "3e-5",
+    "--warmstart-epochs",
+    "10",
+    "--split-mode",
+    "temporal",
+    "--head-type",
+    "corn",
+    "--personalized-head",
+    "--generic-head",
+    "--checkpoint-every",
+    "5",
+    "--resume"
+  ],
+  "runs": [
+    {
+      "seed": 42,
+      "condition": "fedprox",
+      "save_dir": "/mnt/Data/Oni/experiments_temporal_personalized/seed_42/fedprox",
+      "status": "skipped"
+    },
+    {
+      "seed": 43,
+      "condition": "fedprox",
+      "save_dir": "/mnt/Data/Oni/experiments_temporal_personalized/seed_43/fedprox",
+      "status": "skipped"
+    },
+    {
+      "seed": 44,
+      "condition": "fedprox",
+      "save_dir": "/mnt/Data/Oni/experiments_temporal_personalized/seed_44/fedprox",
+      "status": "skipped"
+    }
+  ],
+  "total_elapsed_seconds": 8.232400068663992e-05
+}

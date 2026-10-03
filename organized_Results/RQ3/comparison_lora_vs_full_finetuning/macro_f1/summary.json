@@ -1,0 +1,32 @@
+{
+  "metric": "macro_f1",
+  "direction": "higher",
+  "root_a": "/mnt/Data/Oni/experiments_temporal_shared",
+  "label_a": "LoRA",
+  "root_b": "/mnt/Data/Oni/experiments_temporal_fullft",
+  "label_b": "Full-FT",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "n_paired_blocks": 54,
+  "n_projects": 18,
+  "n_dropped_a_only": 0,
+  "n_dropped_b_only": 0,
+  "mean_a": 0.17078947958737856,
+  "std_a": 0.05461717242693445,
+  "mean_b": 0.21182086038270767,
+  "std_b": 0.053125883883591525,
+  "wilcoxon_stat": 204.0,
+  "wilcoxon_p": 3.5418278415244525e-06,
+  "alpha": 0.05,
+  "significant": true,
+  "vargha_delaney_a12": 0.3278463648834019,
+  "cliffs_delta": -0.3443072702331962,
+  "effect_size": "medium",
+  "prob_a_better": 0.3278463648834019,
+  "n_a_wins": 15,
+  "n_b_wins": 39,
+  "n_ties": 0
+}

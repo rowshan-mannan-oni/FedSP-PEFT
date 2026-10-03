@@ -1,0 +1,23 @@
+{
+  "metric": "macro_f1",
+  "conditions": [
+    "Median",
+    "TF-IDF+SVM",
+    "Local-only",
+    "Centralized",
+    "FedAvg",
+    "FedProx"
+  ],
+  "n_blocks": 54,
+  "statistic": 128.0928381962864,
+  "p_value": 6.042696578792275e-26,
+  "significant": true,
+  "average_ranks": {
+    "Median": 5.611111111111111,
+    "TF-IDF+SVM": 2.3333333333333335,
+    "Local-only": 2.5185185185185186,
+    "Centralized": 2.5185185185185186,
+    "FedAvg": 4.101851851851852,
+    "FedProx": 3.9166666666666665
+  }
+}

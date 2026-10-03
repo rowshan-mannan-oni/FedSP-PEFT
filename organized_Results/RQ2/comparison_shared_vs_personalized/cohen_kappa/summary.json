@@ -1,0 +1,32 @@
+{
+  "metric": "cohen_kappa",
+  "direction": "higher",
+  "root_a": "/mnt/Data/Oni/experiments_temporal_shared",
+  "label_a": "Shared-head",
+  "root_b": "/mnt/Data/Oni/experiments_temporal_personalized",
+  "label_b": "P-head",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "n_paired_blocks": 54,
+  "n_projects": 18,
+  "n_dropped_a_only": 0,
+  "n_dropped_b_only": 0,
+  "mean_a": 0.16577873560774348,
+  "std_a": 0.11433166408927183,
+  "mean_b": 0.1946424544866803,
+  "std_b": 0.10902698551337003,
+  "wilcoxon_stat": 458.0,
+  "wilcoxon_p": 0.014301220341775426,
+  "alpha": 0.05,
+  "significant": true,
+  "vargha_delaney_a12": 0.45267489711934156,
+  "cliffs_delta": -0.09465020576131689,
+  "effect_size": "negligible",
+  "prob_a_better": 0.45267489711934156,
+  "n_a_wins": 17,
+  "n_b_wins": 37,
+  "n_ties": 0
+}

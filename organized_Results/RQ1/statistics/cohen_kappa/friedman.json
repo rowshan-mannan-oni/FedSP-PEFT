@@ -1,0 +1,23 @@
+{
+  "metric": "cohen_kappa",
+  "conditions": [
+    "Median",
+    "TF-IDF+SVM",
+    "Local-only",
+    "Centralized",
+    "FedAvg",
+    "FedProx"
+  ],
+  "n_blocks": 54,
+  "statistic": 132.03978779840844,
+  "p_value": 8.782736815714345e-27,
+  "significant": true,
+  "average_ranks": {
+    "Median": 5.796296296296297,
+    "TF-IDF+SVM": 3.9814814814814814,
+    "Local-only": 2.314814814814815,
+    "Centralized": 2.259259259259259,
+    "FedAvg": 3.212962962962963,
+    "FedProx": 3.435185185185185
+  }
+}

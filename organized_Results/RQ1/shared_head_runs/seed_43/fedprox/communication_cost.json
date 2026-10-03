@@ -1,0 +1,12 @@
+{
+  "head_type": "corn",
+  "trainable_params": 252484,
+  "total_params": 125045572,
+  "bytes_per_client_per_round": 1009936,
+  "bytes_per_client_per_round_full_finetune": 500182288,
+  "rounds": 60,
+  "num_clients": 18,
+  "total_upload_bytes": 1090730880,
+  "total_upload_bytes_full_finetune": 540196871040,
+  "reduction_factor": 495.26137101756945
+}

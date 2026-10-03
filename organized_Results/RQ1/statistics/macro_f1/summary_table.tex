@@ -1,0 +1,16 @@
+\begin{table}[h]
+\centering
+\caption{Macro F1 across conditions (mean $\pm$ std over seeds $\times$ projects)}
+\begin{tabular}{lccc}
+\toprule
+Condition & Mean $\pm$ Std & Avg. Rank & $p$ vs FedProx \\
+\midrule
+Median & 0.0972 $\pm$ 0.0302 & 5.61 & 0.0000 \\
+TF-IDF+SVM & 0.2238 $\pm$ 0.0576 & 2.33 & 0.0000 \\
+Local-only & 0.2076 $\pm$ 0.0536 & 2.52 & 0.0025 \\
+Centralized & 0.2134 $\pm$ 0.0402 & 2.52 & 0.0000 \\
+FedAvg & 0.1697 $\pm$ 0.0537 & 4.10 & 0.1570 \\
+FedProx & 0.1708 $\pm$ 0.0546 & 3.92 & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
